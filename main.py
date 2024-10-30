@@ -98,7 +98,7 @@ password_label = Label(text="Password:", bg="white", fg="black")
 password_label.grid(row=3, column=0)
 
 #Entries
-website_entry = Entry(width=20, bg="white", highlightbackground="white", fg="black")
+website_entry = Entry(width=20, bg="white", highlightbackground="white", fg="black", insertbackground="black")
 website_entry.grid(row=1, column=1)
 website_entry.focus()
 
